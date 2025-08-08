@@ -8,9 +8,11 @@ public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
 
-    public HomeController(ILogger<HomeController> logger)
+    private readonly SpendSmartDbContent _context;
+    public HomeController(ILogger<HomeController> logger, SpendSmartDbContent context)
     {
         _logger = logger;
+        _context = context;
     }
 
     public IActionResult Index()
@@ -35,7 +37,10 @@ public class HomeController : Controller
 
     public IActionResult CreateEditExpenseForm(Expense model)
     {
-        return  RedirectToAction("Expenses");
+    
+        _context.Expenses.Add(model);
+        _context.SaveChanges();
+        return RedirectToAction("Expenses");
     }
     
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

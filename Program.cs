@@ -1,7 +1,12 @@
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Options;
+using SpendSmart.Models;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddDbContext<SpendSmartDbContent>(options => options.UseInMemoryDatabase("SpendSmartDb"));
 
 var app = builder.Build();
 

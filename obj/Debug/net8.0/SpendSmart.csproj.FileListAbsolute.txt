@@ -29,3 +29,17 @@
 /home/hasan/Desktop/SpendSmart/obj/Debug/net8.0/SpendSmart.genruntimeconfig.cache
 /home/hasan/Desktop/SpendSmart/obj/Debug/net8.0/ref/SpendSmart.dll
 /home/hasan/Desktop/SpendSmart/obj/Debug/net8.0/SpendSmart.sourcelink.json
+/home/hasan/Desktop/SpendSmart/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.dll
+/home/hasan/Desktop/SpendSmart/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/home/hasan/Desktop/SpendSmart/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.InMemory.dll
+/home/hasan/Desktop/SpendSmart/bin/Debug/net8.0/Microsoft.Extensions.Caching.Abstractions.dll
+/home/hasan/Desktop/SpendSmart/bin/Debug/net8.0/Microsoft.Extensions.Caching.Memory.dll
+/home/hasan/Desktop/SpendSmart/bin/Debug/net8.0/Microsoft.Extensions.DependencyInjection.dll
+/home/hasan/Desktop/SpendSmart/bin/Debug/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/home/hasan/Desktop/SpendSmart/bin/Debug/net8.0/Microsoft.Extensions.Logging.dll
+/home/hasan/Desktop/SpendSmart/bin/Debug/net8.0/Microsoft.Extensions.Logging.Abstractions.dll
+/home/hasan/Desktop/SpendSmart/bin/Debug/net8.0/Microsoft.Extensions.Options.dll
+/home/hasan/Desktop/SpendSmart/bin/Debug/net8.0/Microsoft.Extensions.Primitives.dll
+/home/hasan/Desktop/SpendSmart/bin/Debug/net8.0/System.Diagnostics.DiagnosticSource.dll
+/home/hasan/Desktop/SpendSmart/obj/Debug/net8.0/SpendSmart.csproj.AssemblyReference.cache
+/home/hasan/Desktop/SpendSmart/obj/Debug/net8.0/SpendSmart.csproj.Up2Date
