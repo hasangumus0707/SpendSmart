@@ -28,3 +28,4 @@
 /home/hasan/Desktop/SpendSmart/obj/Debug/net8.0/SpendSmart.pdb
 /home/hasan/Desktop/SpendSmart/obj/Debug/net8.0/SpendSmart.genruntimeconfig.cache
 /home/hasan/Desktop/SpendSmart/obj/Debug/net8.0/ref/SpendSmart.dll
+/home/hasan/Desktop/SpendSmart/obj/Debug/net8.0/SpendSmart.sourcelink.json

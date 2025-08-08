@@ -35,7 +35,7 @@ public class HomeController : Controller
 
     public IActionResult CreateEditExpenseForm(Expense model)
     {
-        return  RedirectToAction("Index");
+        return  RedirectToAction("Expenses");
     }
     
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
