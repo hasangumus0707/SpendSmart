@@ -64,8 +64,12 @@ public class HomeController : Controller
     public IActionResult DeleteExpense(int id)
     {
         var expenseInDb = _context.Expenses.SingleOrDefault(expense => expense.Id == id);
+
+        if (expenseInDb != null)
+        {
         _context.Expenses.Remove(expenseInDb);
         _context.SaveChanges();
+        }
         return RedirectToAction("Expenses");
     }
 
